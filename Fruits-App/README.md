@@ -1,5 +1,14 @@
 # Fruits App (Fructus)
 
+## Workbook
+
+<div>
+  <img src="Workbook/Fruits_1.png" width="500">
+  <img src="Workbook/Fruits_2.png" width="500">
+  <img src="Workbook/Fruits_3.png" width="500">
+  <img src="Workbook/Fruits_4.png" width="500">
+</div>
+
 ## Screenshots
 
 ### Light Mode
