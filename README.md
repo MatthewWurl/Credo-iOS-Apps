@@ -4,3 +4,16 @@
 </div>
 
 A collection of SwiftUI apps built alongside the [SwiftUI Masterclass](https://credo.academy/swiftui-course.html) course by [Robert Petras](https://github.com/robertpetras).
+
+- [ ] [App 01: Restart](Restart-App)
+- [ ] App 02: Pinch
+- [x] [App 03: Fruits](Fruits-App)
+- [ ] App 04: Africa
+- [ ] App 05: Touchdown
+- [ ] App 06: Devote
+- [ ] App 07: Notes
+- [ ] App 08: Developer Cards
+- [ ] App 09: Avocado Recipes
+- [ ] App 10: Slot Machine Game
+- [ ] App 11: Todos
+- [ ] App 12: Honeymoon
