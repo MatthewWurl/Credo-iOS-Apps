@@ -29,6 +29,9 @@
 		B81C93AA291CBA890042D61E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93A9291CBA890042D61E /* MapView.swift */; };
 		B81C93AC291CBA970042D61E /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93AB291CBA970042D61E /* GalleryView.swift */; };
 		B81C93AE291CBAA60042D61E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93AD291CBAA60042D61E /* MainView.swift */; };
+		B81C93B1291CBCEE0042D61E /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93B0291CBCEE0042D61E /* CoverImageView.swift */; };
+		B81C93B4291CBF440042D61E /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93B3291CBF440042D61E /* CoverImageModel.swift */; };
+		B81C93B7291CC5B20042D61E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C93B6291CC5B20042D61E /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		B81C93A9291CBA890042D61E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B81C93AB291CBA970042D61E /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		B81C93AD291CBAA60042D61E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B81C93B0291CBCEE0042D61E /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		B81C93B3291CBF440042D61E /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		B81C93B6291CC5B20042D61E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +94,12 @@
 		B81C9378291CB6810042D61E /* Africa */ = {
 			isa = PBXGroup;
 			children = (
-				B81C939C291CB85F0042D61E /* Data */,
-				B81C9387291CB8130042D61E /* Video */,
 				B81C93A6291CB9E30042D61E /* App */,
+				B81C939C291CB85F0042D61E /* Data */,
+				B81C93B5291CC59E0042D61E /* Extension */,
+				B81C93B2291CBF2C0042D61E /* Model */,
+				B81C9387291CB8130042D61E /* Video */,
+				B81C93AF291CBCE20042D61E /* View */,
 				B81C937D291CB6820042D61E /* Assets.xcassets */,
 				B81C93A5291CB93F0042D61E /* Info.plist */,
 				B81C937F291CB6820042D61E /* Preview Content */,
@@ -145,6 +154,30 @@
 				B81C93AD291CBAA60042D61E /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		B81C93AF291CBCE20042D61E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B81C93B0291CBCEE0042D61E /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B81C93B2291CBF2C0042D61E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B81C93B3291CBF440042D61E /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B81C93B5291CC59E0042D61E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B81C93B6291CC5B20042D61E /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +266,13 @@
 			files = (
 				B81C937C291CB6810042D61E /* ContentView.swift in Sources */,
 				B81C93AE291CBAA60042D61E /* MainView.swift in Sources */,
+				B81C93B1291CBCEE0042D61E /* CoverImageView.swift in Sources */,
+				B81C93B4291CBF440042D61E /* CoverImageModel.swift in Sources */,
 				B81C93AA291CBA890042D61E /* MapView.swift in Sources */,
 				B81C937A291CB6810042D61E /* AfricaApp.swift in Sources */,
 				B81C93A8291CBA760042D61E /* VideoListView.swift in Sources */,
 				B81C93AC291CBA970042D61E /* GalleryView.swift in Sources */,
+				B81C93B7291CC5B20042D61E /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
