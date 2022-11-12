@@ -22,7 +22,11 @@ struct ContentView: View {
                     )
                 
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
+                    NavigationLink {
+                        AnimalDetailView(animal: animal)
+                    } label: {
+                        AnimalListItemView(animal: animal)
+                    }
                 }
             }
             .listStyle(.plain)
