@@ -36,7 +36,6 @@ struct MapView: View {
                 MapAnnotationView(location: location)
             }
         }
-        .ignoresSafeArea()
         .overlay(
             HStack(alignment: .center, spacing: 12) {
                 Image("compass")
