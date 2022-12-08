@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80064A229426253002AAD55 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80064A129426253002AAD55 /* AnimalGridItemView.swift */; };
 		B8167EC829200D5700484218 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8167EC729200D5700484218 /* AnimalDetailView.swift */; };
 		B8167ECA29200F0200484218 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8167EC929200F0200484218 /* HeadingView.swift */; };
 		B8167ECC29200FDC00484218 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8167ECB29200FDC00484218 /* InsetGalleryView.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80064A129426253002AAD55 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		B8167EC729200D5700484218 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		B8167EC929200F0200484218 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		B8167ECB29200FDC00484218 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				B8167EC729200D5700484218 /* AnimalDetailView.swift */,
+				B80064A129426253002AAD55 /* AnimalGridItemView.swift */,
 				B81C93B8291D54BE0042D61E /* AnimalListItemView.swift */,
 				B81C93B0291CBCEE0042D61E /* CoverImageView.swift */,
 				B854A32A292158E0004A89D4 /* ExternalWebLinkView.swift */,
@@ -335,6 +338,7 @@
 				B840A9DA29293EF500279EB4 /* VideoModel.swift in Sources */,
 				B81C93AC291CBA970042D61E /* GalleryView.swift in Sources */,
 				B830F0A2292ECC9B00E27E1B /* LocationModel.swift in Sources */,
+				B80064A229426253002AAD55 /* AnimalGridItemView.swift in Sources */,
 				B8167ECC29200FDC00484218 /* InsetGalleryView.swift in Sources */,
 				B840A9DC29293F6A00279EB4 /* VideoListItemView.swift in Sources */,
 				B81C93B7291CC5B20042D61E /* CodableBundleExtension.swift in Sources */,
