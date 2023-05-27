@@ -8,7 +8,7 @@ A collection of SwiftUI apps built alongside the [SwiftUI Masterclass](https://c
 - [ ] [App 01: Restart](01-Restart-App)
 - [ ] [App 02: Pinch](02-Pinch-App)
 - [x] [App 03: Fruits](03-Fruits-App)
-- [ ] App 04: Africa
+- [ ] [App 04: Africa](04-Africa-App)
 - [ ] App 05: Touchdown
 - [ ] App 06: Devote
 - [ ] App 07: Notes
