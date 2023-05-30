@@ -12,8 +12,23 @@ struct ContentView: View {
     
     // MARK: - BODY
     var body: some View {
-        FooterView()
-            .padding(.horizontal)
+        ZStack {
+            VStack(spacing: 0) {
+                NavigationBarView()
+                    .padding(.horizontal, 15)
+                    .padding(.bottom)
+                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                    .background(.white)
+                    .shadow(color: .black.opacity(0.05), radius: 5, y: 5)
+                
+                Spacer()
+                
+                FooterView()
+                    .padding(.horizontal)
+            }
+            .background(colorBackground.ignoresSafeArea())
+        }
+        .ignoresSafeArea(.all, edges: .top)
     }
 }
 
